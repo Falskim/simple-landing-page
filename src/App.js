@@ -9,12 +9,12 @@ class App extends Component {
     this.state = {
       darkBackgroundModes: [
         'day',
-        'terminal',
-        'torquoise',
-        'alizarin',
-        'amythyst',
-        'carrot',
-        'peterriver'
+        // 'terminal',
+        // 'torquoise',
+        // 'alizarin',
+        // 'amythyst',
+        // 'carrot',
+        // 'peterriver'
       ],
       lightBackgroundModes: [
         'night',
@@ -172,7 +172,7 @@ class App extends Component {
 
     return (
       <div className={ appClass } style={ bgStyle }>
-        <div className="change-mode" onClick={this.changeThemeMode} />
+        {/* <div className="change-mode" onClick={this.changeThemeMode} /> */}
         <div
           className={ backgroundMode }
           onClick={this.changeBackgroundBasedonMode}>
